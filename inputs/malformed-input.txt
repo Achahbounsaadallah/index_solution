@@ -1,0 +1,1 @@
+{"rules": [{"id": "r01", "pattern": "*.shop.example.test"

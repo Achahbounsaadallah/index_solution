@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {"id": "r01", "pattern": "*.shop.example.test", "action": "include"},
+    {"id": "r02", "pattern": "*.internal.shop.example.test", "action": "exclude"},
+    {"id": "r03", "pattern": "vpn.internal.shop.example.test", "action": "include"},
+    {"id": "r04", "pattern": "Pay.Shop.Example.Test.", "action": "include"},
+    {"id": "r06", "pattern": "*.op.example.test", "action": "include"},
+    {"id": "r07", "pattern": "docs.example.test", "action": "include"},
+    {"id": "r09", "pattern": "*.cdn.shop.example.test", "action": "exclude"},
+    {"id": "r10", "pattern": "*.docs.example.test", "action": "include"},
+    {"id": "r11", "pattern": "*.cdn.shop.example.test", "action": "include"}
+  ],
+  "hosts": [
+    "api.shop.example.test",
+    "pay.shop.example.test",
+    "a.b.cdn.shop.example.test",
+    "cdn.shop.example.test",
+    "VPN.internal.shop.example.test",
+    "db.internal.shop.example.test",
+    "www.docs.example.test",
+    "docs.example.test.",
+    "shop.example.test",
+    "img.op.example.test.",
+    "*.shop.example.test",
+    "api.shop.example.test"
+  ]
+}
